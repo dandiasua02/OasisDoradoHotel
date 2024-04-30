@@ -50,7 +50,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const msg = {
   		to: Email, 
   		from: 'oasisdoradohotel@gmail.com',
-      	templateId: "d-0c17a3bb5c95464e8367c550a90ec2d8",
+      	templateId: "d-457348f2d0f14995acb3793239d06f28",
       	dynamic_template_data: {Adultos,Hijos,Tipodeestancia,FechaInicio,DiasReserva,Nombre,Apellidos,Telefono,DNI,Seguimiento,Precio}
 	};
 	sgMail.send(msg);
@@ -189,7 +189,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
 	    const msg = {
   			to: Email, 
   			from: 'oasisdoradohotel@gmail.com',
-      		templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+      		templateId: "d-6d9d05073b94442a9255a739fae76e50",
       		dynamic_template_data: {Adultos: NuevoAdultos, Hijos:consulta.Hijos, Tipodeestancia: consulta.Tipodeestancia,
             	                    FechaInicio:consulta.FechaInicio, DiasReserva:consulta.DiasReserva,Nombre:consulta.Nombre,
                 	                Apellidos:consulta.Apellidos,Telefono:consulta.Telefono,DNI:consulta.DNI,
@@ -251,7 +251,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       const msg = {
           to: Email, 
           from: 'oasisdoradohotel@gmail.com',
-          templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+          templateId: "d-6d9d05073b94442a9255a739fae76e50",
           dynamic_template_data: {Adultos: consulta.Adultos, Hijos:NuevoHijos, Tipodeestancia: consulta.Tipodeestancia,
                                   FechaInicio:consulta.FechaInicio, DiasReserva:consulta.DiasReserva,Nombre:consulta.Nombre,
                                   Apellidos:consulta.Apellidos,Telefono:consulta.Telefono,DNI:consulta.DNI,
@@ -300,7 +300,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       const msg = {
           to: Email, 
           from: 'oasisdoradohotel@gmail.com',
-          templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+          templateId: "d-6d9d05073b94442a9255a739fae76e50",
           dynamic_template_data: {Adultos: consulta.Adultos, Hijos:consulta.Hijos, Tipodeestancia: consulta.Tipodeestancia,
                                   FechaInicio:NuevoFechaInicioFormateada, DiasReserva:consulta.DiasReserva,Nombre:consulta.Nombre,
                                   Apellidos:consulta.Apellidos,Telefono:consulta.Telefono,DNI:consulta.DNI,
@@ -358,7 +358,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       const msg = {
           to: Email, 
           from: 'oasisdoradohotel@gmail.com',
-          templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+          templateId: "d-6d9d05073b94442a9255a739fae76e50",
           dynamic_template_data: {Adultos: consulta.Adultos, Hijos:consulta.Hijos, Tipodeestancia: consulta.Tipodeestancia,
                                   FechaInicio:consulta.FechaInicio, DiasReserva:NuevoDiasReserva,Nombre:consulta.Nombre,
                                   Apellidos:consulta.Apellidos,Telefono:consulta.Telefono,DNI:consulta.DNI,
@@ -403,7 +403,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       const msg = {
           to: Email, 
           from: 'oasisdoradohotel@gmail.com',
-          templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+          templateId: "d-6d9d05073b94442a9255a739fae76e50",
           dynamic_template_data: {Adultos: consulta.Adultos, Hijos:consulta.Hijos, Tipodeestancia: consulta.Tipodeestancia,
                                   FechaInicio:consulta.FechaInicio, DiasReserva:consulta.DiasReserva,Nombre:NuevoNombre,
                                   Apellidos:consulta.Apellidos,Telefono:consulta.Telefono,DNI:consulta.DNI,
@@ -444,7 +444,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       const msg = {
           to: Email, 
           from: 'oasisdoradohotel@gmail.com',
-          templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+          templateId: "d-6d9d05073b94442a9255a739fae76e50",
           dynamic_template_data: {Adultos: consulta.Adultos, Hijos:consulta.Hijos, Tipodeestancia: consulta.Tipodeestancia,
                                   FechaInicio:consulta.FechaInicio, DiasReserva:consulta.DiasReserva,Nombre:consulta.Nombre,
                                   Apellidos:NuevoApellidos,Telefono:consulta.Telefono,DNI:consulta.DNI,
@@ -489,7 +489,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       const msg = {
           to: Email, 
           from: 'oasisdoradohotel@gmail.com',
-          templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+          templateId: "d-6d9d05073b94442a9255a739fae76e50",
           dynamic_template_data: {Adultos: consulta.Adultos, Hijos:consulta.Hijos, Tipodeestancia: consulta.Tipodeestancia,
                                   FechaInicio:consulta.FechaInicio, DiasReserva:consulta.DiasReserva,Nombre:consulta.Nombre,
                                   Apellidos:consulta.Apellidos,Telefono:consulta.Telefono,DNI:NuevoDNI,
@@ -532,7 +532,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       const msg = {
           to: Email, 
           from: 'oasisdoradohotel@gmail.com',
-          templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+          templateId: "d-6d9d05073b94442a9255a739fae76e50",
           dynamic_template_data: {Adultos: consulta.Adultos, Hijos:consulta.Hijos, Tipodeestancia: consulta.Tipodeestancia,
                                   FechaInicio:consulta.FechaInicio, DiasReserva:consulta.DiasReserva,Nombre:consulta.Nombre,
                                   Apellidos:consulta.Apellidos,Telefono:consulta.Telefono,DNI:consulta.DNI,
@@ -573,7 +573,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       const msg = {
           to: Email, 
           from: 'oasisdoradohotel@gmail.com',
-          templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+          templateId: "d-6d9d05073b94442a9255a739fae76e50",
           dynamic_template_data: {Adultos: consulta.Adultos, Hijos:consulta.Hijos, Tipodeestancia: consulta.Tipodeestancia,
                                   FechaInicio:consulta.FechaInicio, DiasReserva:consulta.DiasReserva,Nombre:consulta.Nombre,
                                   Apellidos:consulta.Apellidos,Telefono:NuevoTelefono,DNI:consulta.DNI,
@@ -632,7 +632,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
       const msg = {
           to: Email, 
           from: 'oasisdoradohotel@gmail.com',
-          templateId: "d-84e527b37c7748ccb85f941174b3d4e1",
+          templateId: "d-6d9d05073b94442a9255a739fae76e50",
           dynamic_template_data: {Adultos: consulta.Adultos, Hijos:consulta.Hijos, Tipodeestancia: Tipodeestancia,
                                   FechaInicio:consulta.FechaInicio, DiasReserva:consulta.DiasReserva,Nombre:consulta.Nombre,
                                   Apellidos:consulta.Apellidos,Telefono:consulta.Telefono,DNI:consulta.DNI,
