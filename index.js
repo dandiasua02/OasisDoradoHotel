@@ -6,7 +6,7 @@ const {Card, Suggestion} = require('dialogflow-fulfillment');
 const axios=require("axios");
 const { Payload } = require('dialogflow-fulfillment');
 const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey("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");
+sgMail.setApiKey("APIKEY");
  
 process.env.DEBUG = 'dialogflow:debug'; // enables lib debugging statements
  
